@@ -5,14 +5,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aggregate</groupId>
-    <artifactId>browser</artifactId>
-    <version>1.1.0</version>
+    <groupId>com.popov</groupId>
+    <artifactId>screenshotmaker</artifactId>
+    <version>1.0.0</version>
 
     <distributionManagement>
         <repository>
             <id>bintray-aggregate</id>
-            <url>https://api.bintray.com/maven/uzyovoys/aggregate/browser/;publish=1</url>
+            <url>https://api.bintray.com/maven/uzyovoys/aggregate/screenshotmaker/;publish=1</url>
         </repository>
     </distributionManagement>
 
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.aggregate</groupId>
             <artifactId>api</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
